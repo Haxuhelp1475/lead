@@ -1,3 +1,4 @@
+/*css header*/
 header {
     background-color: #9ad9ea;
     color: black;
@@ -9,6 +10,8 @@ header {
     margin-bottom: -20px;
     width: calc(100% + 60px);
 }
+
+/*chia header: header-left, header-right*/
 #header-left, #header-right {
     flex-basis: 50%;
 }
@@ -25,6 +28,7 @@ header {
     font-weight: bold;
 }
 
+/*css footer*/
 footer {
     background-color: #cfebdf;
     color: black;
