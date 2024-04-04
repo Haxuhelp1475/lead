@@ -1,0 +1,160 @@
+/*header*/
+header {
+  background-color: #9ad9ea;
+  color: black;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 20px solid #cfebdf;
+  border-top: 20px solid #cfebdf;
+  border-left: 30px solid #cfebdf;
+  border-right: 30px solid #cfebdf;
+}
+#header-left,
+#header-right {
+  flex-basis: 50%;
+}
+
+#header-left {
+  padding: 10px;
+}
+
+#header-right {
+  padding: 10px;
+}
+
+#logo {
+  font-weight: bold;
+}
+.menu {
+  text-align: center;
+  background-color: #6de5b1;
+}
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu ul li {
+  display: inline-block;
+  position: relative;
+  border: 1px black;
+}
+
+.menu ul li a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #333;
+}
+
+.menu ul li:hover > .submenu {
+  display: block;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #cfebdf;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.submenu li {
+  display: block;
+  padding: 10px 15px;
+}
+
+.submenu li a {
+  color: #333;
+  text-decoration: none;
+}
+
+#search {
+  padding: 1px 10px;
+  background-color: #fff;
+}
+
+
+
+
+/*content*/
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 2;
+  padding: 0;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(51, 43, 43, 0.1);
+}
+
+h1 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 40px;
+  margin-left: 250px;
+}
+
+#title{
+  height: 100px;
+  margin-bottom: px;
+}
+#content{
+  height: 170px;
+}
+#category {
+  width: 500px; 
+  margin-right: 1000px;
+}
+#author {
+  width: 500px; 
+  margin-right: 1000px;
+}
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+#submit {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 90%;
+  width : 150px;
+}
+
+form {
+  width: 100%;
+}
+
+/*footer*/
+footer {
+  width: 100%;
+  background-color: #cfebdf;
+  color: black;
+  text-align: center;
+  padding: 10px;
+}
