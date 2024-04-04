@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SPORTS NEWS</title>
-    <link rel="stylesheet" href="Trangchu.css">
+    <link rel="stylesheet" href="TrangChu.css">
 </head>
     <header>
         <div id="header-left">
@@ -58,116 +58,27 @@
     </div>
     <!--/id menu-->
 <!--content-->
-    <div id="content-1">
-	<div id="hot1"><a href="#">
-        <img src="tieuDeNoiBat.jpg">
-        <h3>Tiêu đề tin nổi bật</h3>
-        <p>Nội dung</p></a>
-    </div><!--/ id hot1-->
-    <div id="sidebar">
-        <p>Tin nổi bật</p>
-        <hr>
-        <li><a href="">nội dung 1</a></li>
-        <li><a href="">nội dung 2</a></li>
-        <li><a href="">nội dung 3</a></li>
-        <li><a href="">nội dung 4</a></li>
-        <li><a href="">nội dung 5</a></li>
-        <li><a href="">nội dung 6</a></li>
-    </div><!--/id sidebar-->
-    </div> <!--/id content-1-->
-    <hr>
-    <div id="content-2">
-        <div id="content-2L">
-            <figure>
-                <img scr="#">
-                <figcaption>
-                    <a href="#"><h3>Tiều đề 1</h3></a>
-                    <p>Nội dung</p>
-                </figcaption>
-            </figure>
-            <figure>
-                <img scr="#">
-                <figcaption>
-                    <a href="#"><h3>Tiều đề 2</h3></a>
-                    <p>Nội dung</p>
-                </figcaption>
-            </figure>
-            <figure>
-                <img scr="#">
-                <figcaption>
-                    <a href="#"><h3>Tiều đề 3</h3></a>
-                    <p>Nội dung</p>
-                </figcaption>
-            </figure>
-            <figure>
-                <img scr="#">
-                <figcaption>
-                    <a href="#"><h3>Tiều đề 4</h3></a>
-                    <p>Nội dung</p>
-                </figcaption>
-            </figure>
-            <figure>
-                <img scr="#">
-                <figcaption>
-                    <a href="#"><h3>Tiều đề 5</h3></a>
-                    <p>Nội dung</p>
-                </figcaption>
-            </figure>
-            <figure>
-                <img scr="#">
-                <figcaption>
-                    <a href="#"><h3>Tiều đề 6</h3></a>
-                    <p>Nội dung</p>
-                </figcaption>
-            </figure>
-        </div><!--/content-2L-->   
-        <div id="content-2R">
-            <figure>
-                <img scr="#">
-                <figcaption>
-                    <a href="#"><h3>Tiều đề 7</h3></a>
-                    <p>Nội dung</p>
-                </figcaption>
-            </figure>
-            <figure>
-                <img scr="#">
-                <figcaption>
-                    <a href="#"><h3>Tiều đề 8</h3></a>
-                    <p>Nội dung</p>
-                </figcaption>
-            </figure>
-            <figure>
-                <img scr="#">
-                <figcaption>
-                    <a href="#"><h3>Tiều đề 9</h3></a>
-                    <p>Nội dung</p>
-                </figcaption>
-            </figure>
-            <figure>
-                <img scr="#">
-                <figcaption>
-                    <a href="#"><h3>Tiều đề 10</h3></a>
-                    <p>Nội dung</p>
-                </figcaption>
-            </figure>
-            <figure>
-                <img scr="#">
-                <figcaption>
-                    <a href="#"><h3>Tiều đề 11</h3></a>
-                    <p>Nội dung</p>
-                </figcaption>
-            </figure>
-            <figure>
-                <img scr="#">
-                <figcaption>
-                    <a href="#"><h3>Tiều đề 12</h3></a>
-                    <p>Nội dung</p>
-                </figcaption>
-            </figure>
+<body>
+    <div class="container">
+        <h1>Nhập bài viết</h1>
+        <form>
+            <label for ="category">Thể loại</label>
+            <input type ="text" id="category" name="category" placeholder="category name" >
+
+            <label for="title">Tiêu đề:</label>
+            <input type="text" id="title" name="title" placeholder="Article title">
+
+            <label for="content">Nội dung:</label>
+            <textarea id="content" name="content" rows="6" placeholder="Write your article here"></textarea>
             
-        </div>  <!--/content-2R--> 
-    </div><!--/content-2-->
-<!--/content-->
+            <label for="author">Tác giả:</label>
+            <input type="text" id="author" name="author" placeholder="Your name">
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+        
+<!--footer-->
     <footer>
         <h4>BÁO ĐIỆN TỬ SPORTS NEW</h4>
         <p>Giấy phép số 321/</p>
