@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #9ad9ea;
+  color: black;
+  padding: 10px;
+  display: block;
+  position: relative;
+}
+
+#header-left, #header-right {
+  flex-basis: 50%;
+}
+
+#header-left {
+  padding: 10px;
+}
+
+#header-right {
+  padding: 10px;
+}
+
+#logo {
+  font-weight: bold;
+}
+
+
+#header-left, #header-right {
+  flex-basis: 50%;
+}
+
+#header-left {
+  padding: 10px;
+}
+
+#header-right {
+  padding: 10px;
+}
+
+#logo {
+  font-weight: bold;
+}
+
+
+/*chia header: header-left, header-right*/
+#header-left, #header-right {
+  flex-basis: 50%;
+}
+
+#header-left {
+  padding: 10px;
+}
+
+#header-right {
+  padding: 10px;
+}
+
+#logo {
+  font-weight: bold;
+}
+
+/* CSS cho phần menu */
+.menu {
+  text-align: center;
+  background-color: #6de5b1;
+}
+
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu ul li {
+  display: inline-block;
+  position: relative;
+}
+
+.menu ul li a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #333;
+}
+
+.menu ul li:hover > .submenu {
+  display: block;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #cfebdf;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.submenu li {
+  display: block;
+  padding: 10px 15px;
+}
+
+.submenu li a {
+  color: #333;
+  text-decoration: none;
+}
+
+#search {
+  padding: 1px 10px;
+  background-color: #fff;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+#content {
+  display: flex;
+  justify-content: space-between;
+}
+
+#forum {
+  width: 65%;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.topic {
+  border-bottom: 1px solid #ccc;
+  padding: 20px 0;
+}
+
+.topic h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.post {
+  border-bottom: 1px dashed #ccc;
+  padding: 10px 0;
+}
+
+.post h3 {
+  color: #666;
+}
+
+.post p {
+  color: #999;
+}
+
+#comments {
+  width: 90%;
+  border: 10px solid #ccc; /* Thêm viền */
+  padding: 10px;
+  margin-bottom: 10px;
+  max-height: 200px; /* Giới hạn chiều cao tối đa */
+  overflow-y: auto; /* Thêm thanh cuộn nếu nội dung vượt quá chiều cao tối đa */
+}
+
+#comment-input {
+  width: 90%; /* Chiều rộng bằng với chiều rộng của khung bình luận */
+  height: 100px; /* Chiều cao ban đầu */
+  resize: none; /* Ngăn chặn việc kéo dãn */
+  overflow-y: 100px; /* Thêm thanh cuộn nếu nội dung vượt quá chiều cao tối đa */
+}
+
+#submit-comment {
+  display: block; /* Làm cho nút xuống dòng */
+  margin: left; /* Căn giữa nút */
+  background-color: #04cfe6; /* Màu nền của nút */
+  color: white; /* Màu chữ của nút */
+  border: none; /* Loại bỏ viền */
+  padding: 5px 10px; /* Đệm bên trong nút */
+  font-size: 16px; /* Kích thước chữ */
+  border-radius: 5px; /* Làm tròn góc của nút */
+  cursor: pointer; /* Thay đổi con trỏ khi di chuột qua nút */
+}
+
+#submit-comment:hover {
+  background-color: #04c8e27d; /* Thay đổi màu nền khi di chuột qua nút */
+}
+
+/*css footer*/
+footer {
+  background-color: #cfebdf;
+  color: black;
+  text-align: center;
+  padding: 10px;
+  display: block;
+}
