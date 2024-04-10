@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: white;
+}
+
+/*header*/
+header {
+  background-image: url(https://nakonzer.com/wp-content/uploads/2021/09/fifa-2-e1632795934784.jpg);
+  width: 100%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#header img {
+  width: 100%;
+  height: 300px;
+}
+
+#logo {
+  text-align: center;
+}
+
+#logo img {
+  width: 40%;
+  height: 300px;
+  padding: 0;
+  margin: 0;
+}
+.menu {
+  text-align: center;
+  background-color: rgb(192, 7, 7);
+}
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu ul li {
+  display: inline-block;
+  position: relative;
+}
+
+.menu ul li a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: white;
+}
+.menu ul li:last-child {
+  border-right: none;
+}
+.menu ul li:hover > .submenu {
+  display: block;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: rgb(192, 7, 7);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.submenu li {
+  display: block;
+  padding: 10px 15px;
+}
+
+.submenu li a {
+  color: #333;
+  text-decoration: none;
+}
+
+#search {
+  padding: 1px 10px;
+  background-color: #fff;
+}
+/*footer*/
+footer {
+  width: 100%;
+  height: 200px;
+  background-color: rgb(192, 7, 7);
+  color: white;
+  text-align: left;
+  display: flex;
+}
