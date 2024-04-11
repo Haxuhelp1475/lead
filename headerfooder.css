@@ -85,10 +85,41 @@ header {
 }
 /*footer*/
 footer {
-  width: 100%;
-  height: 200px;
-  background-color: rgb(192, 7, 7);
+  margin-bottom: -5%;
   color: white;
-  text-align: left;
+  background-color: rgb(192, 7, 7);
+}
+footer .foot ul {
   display: flex;
+  justify-content: space-around;
+  align-content: center;
+  padding: 15px;
+  margin: 0;
+}
+footer .foot ul .foot-infor {
+  width: 40%;
+}
+footer .foot ul .foot-contact {
+  width: 27%;
+}
+
+footer .foot ul li p {
+  padding: 5px;
+}
+footer .foot ul li h3 {
+  color: black;
+  padding: 5px;
+}
+footer .foot h3 {
+  width: 70%;
+  font-weight: 555;
+  font-family: "Times New Roman", Times, serif;
+}
+footer .foot #dash-foot {
+  background-color: red;
+  height: 1.7px;
+}
+footer .foot #label-color {
+  color: black;
+  font-weight: 550;
 }
