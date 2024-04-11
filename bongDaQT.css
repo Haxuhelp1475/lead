@@ -1,0 +1,133 @@
+body {
+  background-color: rgb(247, 243, 243);
+}
+header {
+  color: black;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 20px solid #cfebdf;
+  border-top: 20px solid #cfebdf;
+  border-left: 30px solid #cfebdf;
+  border-right: 30px solid #cfebdf;
+}
+#header-left,
+#header-right {
+  flex-basis: 50%;
+}
+
+#header-left {
+  padding: 10px;
+}
+
+#header-right {
+  padding: 10px;
+}
+
+#logo {
+  font-weight: bold;
+}
+.menu {
+  text-align: center;
+  background-color: #6de5b1;
+}
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu ul li {
+  display: inline-block;
+  position: relative;
+}
+
+.menu ul li a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #333;
+}
+.menu ul li:last-child {
+  border-right: none;
+}
+.menu ul li:hover > .submenu {
+  display: block;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #cfebdf;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.submenu li {
+  display: block;
+  padding: 10px 15px;
+}
+
+.submenu li a {
+  color: #333;
+  text-decoration: none;
+}
+
+#search {
+  padding: 1px 10px;
+  background-color: #fff;
+}
+/*content*/
+#content {
+  background-color: white;
+  width: 85%;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid #565555;
+  padding: 30px 30px;
+}
+/*tin nổi bật*/
+#p1 {
+  font-size: 15px;
+}
+#content-1 {
+  width: 85%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  border-bottom: 1px solid gainsboro;
+  padding: 30px 30px;
+}
+#hot1 {
+  text-align: left;
+  border-left: 5px slategray;
+  padding: 10px 15px;
+  padding: 10px;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+hr {
+  border-top: 1px dashed gray;
+}
+/*footer*/
+footer {
+  width: 100%;
+  background-color: #cfebdf;
+  color: black;
+  text-align: center;
+  padding: 10px;
+}
+
+figure {
+  width: 70%;
+  text-align: left;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: 1px solid gainsboro;
+}
