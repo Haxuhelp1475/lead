@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#logo{
+    margin: 1px;
+    padding: 0px;
+
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+ 
+        
+      }
+      h1{
+        margin: 10px;
+        text-align: center;
+       
+
+      }
+.container {
+    width: 300px;
+    padding: 16px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 100px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid dodgerblue;
+}
+
+button {
+    background-color: dodgerblue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    
+}
+
+button:hover {
+    background-color: darkblue;
+}
+
+.conten-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    
+  }
+  
+  .conten-1 p, .conten-1 a {
+    margin: 10px 10px;
+  }
+  .conten-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 42px;
+  }
+  
+  .conten-2 p, .conten-2 a {
+    margin: 0px 10px;
+  }
+
+footer {
+    background-color: #a8dff9;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    padding: 30px;
+   
+
+}
