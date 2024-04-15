@@ -95,6 +95,7 @@ footer .foot ul {
   align-content: center;
   padding: 15px;
   margin: 0;
+  list-style-type: none;
 }
 footer .foot ul .foot-infor {
   width: 40%;
