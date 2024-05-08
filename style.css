@@ -105,6 +105,10 @@ header {
   text-align: left;
   width: 70%;
 }
+#hot1 img {
+  width: 100%;
+  height: 420px;
+}
 #sidebar h3 {
   text-align: center;
 }
