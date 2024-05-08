@@ -94,7 +94,6 @@
                     <li><a href="#">PUBG</a></li>
                 </ul>
             </li>
-            <li><a id="select" href="http://127.0.0.1:5500/diendan.html">Diễn đàn</a></li>
 
             <li>
                 <input type="search" id="search" placeholder="Tìm kiếm" />
