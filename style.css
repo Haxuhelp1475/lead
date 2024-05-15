@@ -97,8 +97,6 @@ header {
   text-align: center;
   display: flex;
 }
-#content-2 {
-}
 
 #hot1 {
   float: left;
@@ -142,7 +140,7 @@ a {
   text-align: left;
   align-items: left;
   display: flex;
-  width: 70%;
+  width: 80%;
   border-bottom: 1px solid gainsboro;
 }
 
@@ -158,7 +156,7 @@ a {
   width: 100%;
   height: 130px;
 }
-#items h3 {
+#items h4 {
   display: -webkit-box;
   -webkit-box-orient: vertical;
 }
@@ -181,7 +179,7 @@ marquee {
 }
 
 marquee img {
-  width: 100%;
+  width: 40%;
   height: 150px;
 }
 
