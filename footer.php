@@ -20,7 +20,7 @@
                         trên website này.</p>
                 </li>
                 <li class="foot foot-contact">
-                    <h3><u>THÔNG LIÊN HỆ</u></h3>
+                    <h3><u>THÔNG TIN LIÊN HỆ</u></h3>
                     <P>Hotline:0989.826.743</P>
                     <p>Email:sportsnews@gmail.com</p>
                 </li>
