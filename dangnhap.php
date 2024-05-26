@@ -45,12 +45,6 @@
         <input type="password" name="password" placeholder="Mật khẩu" required>
         <br>
         <button type="submit"><b>Đăng nhập</b></button>
-        <div class="bot">
-           <a id="left" href="signup.php"><h5>Đăng ký tài khoản</h5></a>
-        </div>
-        <div class="bot">
-           <a id="right" href="#"><h5>Quên mật khẩu</h5></a>
-        </div>
     </form>
 </div>
 <br>
