@@ -53,6 +53,7 @@
         $address = $_POST['address'];
         $email = $_POST['email'];
         $username = $_POST['username'];
+        $phone = $_POST['phone'];
         $password = $_POST['password'];
         $confirm_password = $_POST['confirm_password'];
         $role = $_POST['role'];
@@ -62,7 +63,7 @@
             echo "Mật khẩu không khớp!";
         } else {
             // Thêm người dùng mới vào bảng user mà không mã hóa mật khẩu
-            $sql = "INSERT INTO user (hoVaTen, diaChi, email, username, password, vaiTro) VALUES ('$fullname', '$address', '$email', '$username', '$password', '$role')";
+            $sql = "INSERT INTO user (hoVaTen, diaChi, email, username, SDT, password, vaiTro) VALUES ('$fullname', '$address', '$email', '$username', '$phone', '$password', '$role')";
 
             if ($conn->query($sql) === TRUE) {
                 echo "Đăng ký thành công!";
