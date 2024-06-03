@@ -61,11 +61,8 @@
         if ($password !== $confirm_password) {
             echo "Mật khẩu không khớp!";
         } else {
-            // Mã hóa mật khẩu
-            $hashed_password = password_hash($password, PASSWORD_DEFAULT);
-
-            // Thêm người dùng mới vào bảng user
-            $sql = "INSERT INTO user (hoVaTen, diaChi, email, username, password, vaiTro) VALUES ('$fullname', '$address', '$email', '$username', '$hashed_password', '$role')";
+            // Thêm người dùng mới vào bảng user mà không mã hóa mật khẩu
+            $sql = "INSERT INTO user (hoVaTen, diaChi, email, username, password, vaiTro) VALUES ('$fullname', '$address', '$email', '$username', '$password', '$role')";
 
             if ($conn->query($sql) === TRUE) {
                 echo "Đăng ký thành công!";
